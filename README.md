@@ -23,19 +23,6 @@ sudo apt-get update
 sudo apt-get install default-jdk
 ```
 
-Here's the script for a Java runner for Cloud9. If you paste this in the right place into Cloud9, then when you click the green Run button it runs your Java code.
-
-```
-{
-  "script": [ 
-    "javac $file_name",
-    "java $file_base_name"
-  ],
-  "info": "Building $file_name and running $file_base_name",
-  "selector": "source.java"
-}
-```
-
 Make sure that you know how to edit, compile (javac) and run (java) Java programs in Cloud9.
 
 ## Link GitHub and Cloud9
@@ -57,4 +44,3 @@ Make sure that you can run it in Cloud9 from the associated coffeemaker.jar file
 ```bash
 java -jar coffeemaker.jar
 ```
-
